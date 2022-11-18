@@ -10,47 +10,43 @@ $ cargo bench -- --quiet
 
 ## Results
 
+CPU: Ryzen 3700X
+
 ![results-graph](results.svg)
 
 <details>
   <summary>Click me</summary>
 
 ```text
-num_entries: 1 << 10    time:   [4.0161 ms 4.0287 ms 4.0427 ms]
+num_entries: 2^13       time:   [4.2082 ms 4.2197 ms 4.2339 ms]
 
-num_entries: 1 << 11    time:   [4.1842 ms 4.2042 ms 4.2285 ms]
+num_entries: 2^14       time:   [4.3163 ms 4.3382 ms 4.3634 ms]
 
-num_entries: 1 << 12    time:   [4.0224 ms 4.0319 ms 4.0444 ms]
+num_entries: 2^15       time:   [4.3753 ms 4.3949 ms 4.4168 ms]
 
-num_entries: 1 << 13    time:   [4.1605 ms 4.1757 ms 4.1927 ms]
+num_entries: 2^16       time:   [4.4192 ms 4.4505 ms 4.4866 ms]
 
-num_entries: 1 << 14    time:   [4.2499 ms 4.2630 ms 4.2770 ms]
+num_entries: 2^17       time:   [4.6452 ms 4.6968 ms 4.7545 ms]
 
-num_entries: 1 << 15    time:   [4.3286 ms 4.3443 ms 4.3626 ms]
+num_entries: 2^18       time:   [5.7159 ms 5.7920 ms 5.8720 ms]
 
-num_entries: 1 << 16    time:   [4.5513 ms 4.6267 ms 4.7110 ms]
+num_entries: 2^19       time:   [6.8523 ms 6.9242 ms 7.0009 ms]
 
-num_entries: 1 << 17    time:   [4.6607 ms 4.7779 ms 4.9147 ms]
+num_entries: 2^20       time:   [8.0416 ms 8.1426 ms 8.2457 ms]
 
-num_entries: 1 << 18    time:   [6.4940 ms 6.6921 ms 6.8998 ms]
+num_entries: 2^21       time:   [9.6515 ms 9.8732 ms 10.115 ms]
 
-num_entries: 1 << 19    time:   [6.2598 ms 6.3494 ms 6.4397 ms]
+num_entries: 2^22       time:   [11.315 ms 11.506 ms 11.709 ms]
 
-num_entries: 1 << 20    time:   [8.0513 ms 8.1612 ms 8.2774 ms]
+num_entries: 2^23       time:   [20.175 ms 20.384 ms 20.607 ms]
 
-num_entries: 1 << 21    time:   [8.7615 ms 8.8270 ms 8.9022 ms]
+num_entries: 2^24       time:   [24.855 ms 24.940 ms 25.044 ms]
 
-num_entries: 1 << 22    time:   [9.5370 ms 9.6113 ms 9.6966 ms]
+num_entries: 2^25       time:   [26.532 ms 26.859 ms 27.237 ms]
 
-num_entries: 1 << 23    time:   [18.071 ms 18.252 ms 18.438 ms]
+num_entries: 2^26       time:   [27.130 ms 27.250 ms 27.390 ms]
 
-num_entries: 1 << 24    time:   [23.677 ms 23.781 ms 23.890 ms]
-
-num_entries: 1 << 25    time:   [25.239 ms 25.319 ms 25.411 ms]
-
-num_entries: 1 << 26    time:   [26.435 ms 26.581 ms 26.747 ms]
-
-num_entries: 1 << 27    time:   [26.209 ms 26.255 ms 26.316 ms]
+num_entries: 2^27       time:   [27.654 ms 27.897 ms 28.200 ms]
 ```
 
 </details>
